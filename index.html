@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio — accounting student at the intersection of business, technology, and strategy." />
+  <!-- PERSONAL INFO: Replace YOUR NAME in the title, logo, footer, and meta as needed -->
+  <title>Shreya Birudavolu | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header" id="site-header">
+    <!-- PERSONAL INFO: Replace YOUR NAME -->
+    <a class="logo" href="#home" aria-label="Shreya Birudavolu, home">Shreya Birudavolu</a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+      <span class="nav-toggle-bar"></span>
+      <span class="nav-toggle-bar"></span>
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="#skills" data-nav="skills">Skills</a>
+      <a href="#experience" data-nav="experience">Experience</a>
+      <a href="#projects" data-nav="projects">Projects</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-heading">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Accounting × Technology × Strategy</p>
+          <h1 id="hero-heading">Business-minded. Technology-curious. Built to figure things out.</h1>
+          <p class="hero-lede">
+            I’m an accounting student drawn to where business, technology, and strategy meet—interested
+            in understanding how organizations work and in building, researching, and testing ideas that
+            make solutions practical.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">Explore My Work</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <svg class="hero-diagram" viewBox="0 0 280 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect class="diagram-accent" x="198" y="24" width="56" height="56" transform="rotate(12 226 52)" />
+            <circle cx="72" cy="88" r="6" stroke="currentColor" stroke-width="1" />
+            <circle cx="140" cy="140" r="8" stroke="currentColor" stroke-width="1" />
+            <circle cx="208" cy="196" r="6" stroke="currentColor" stroke-width="1" />
+            <path d="M78 88 L134 140" stroke="currentColor" stroke-width="1" />
+            <path d="M146 140 L202 196" stroke="currentColor" stroke-width="1" />
+            <path d="M72 94 L72 200" stroke="currentColor" stroke-width="1" stroke-dasharray="4 6" />
+            <circle cx="72" cy="208" r="4" fill="currentColor" />
+            <text x="24" y="248" class="diagram-label">connect · test · learn</text>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-skills" id="skills" aria-labelledby="skills-heading">
+      <div class="section-meta">
+        <span class="section-index">01</span>
+        <span class="section-tag">Skills</span>
+      </div>
+      <div class="section-body">
+        <h2 id="skills-heading">Skills and exposure</h2>
+        <div class="skills-columns">
+          <div class="skills-block">
+            <h3>Technical &amp; product exposure</h3>
+            <p class="skills-caption">From internship work</p>
+            <ul>
+              <li>Software integrations</li>
+              <li>Website development</li>
+              <li>Product development</li>
+              <li>Software testing</li>
+            </ul>
+          </div>
+          <div class="skills-block">
+            <h3>Business &amp; analytical interests</h3>
+            <p class="skills-caption">Coursework and research</p>
+            <ul>
+              <li>Accounting</li>
+              <li>Business strategy research</li>
+              <li>AI market research</li>
+              <li>CRM research</li>
+              <li>Analytical problem-solving</li>
+            </ul>
+          </div>
+          <div class="skills-block">
+            <h3>Collaboration</h3>
+            <p class="skills-caption">Team and mentorship</p>
+            <ul>
+              <li>Written feedback</li>
+              <li>Communication</li>
+              <li>Research synthesis</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-experience" id="experience" aria-labelledby="experience-heading">
+      <div class="section-meta">
+        <span class="section-index">02</span>
+        <span class="section-tag">Experience</span>
+      </div>
+      <div class="section-body">
+        <h2 id="experience-heading">Professional experience</h2>
+        <article class="experience-block">
+          <div class="experience-intro prose">
+            <p>
+              <strong>Overnight Engine</strong> develops specialized AI employees for document-heavy,
+              regulated businesses—helping teams handle complex workflows without replacing the judgment
+              their work requires.
+            </p>
+          </div>
+          <header class="experience-header">
+            <div>
+              <h3 class="experience-role">Intern</h3>
+              <p class="experience-org">Overnight Engine</p>
+            </div>
+            <p class="experience-dates"><time datetime="2026-06">June 2026</time> – <time datetime="2026-08">August 2026</time></p>
+          </header>
+          <ul class="experience-list">
+            <li>Coded and live-tested 100+ integrations for company software, connecting tools and verifying behavior in real environments.</li>
+            <li>Designed and developed an iteration of a habit-based health app for employees, from concept through a working build.</li>
+            <li>Contributed to an iteration of the company website, helping present the product and company clearly.</li>
+            <li>Researched business strategy, the AI market, product design, and CRM systems, synthesizing findings for internal use.</li>
+            <li>Provided consistent written feedback to younger interns to strengthen clarity and structure in their work.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-projects" id="projects" aria-labelledby="projects-heading">
+      <div class="section-meta">
+        <span class="section-index">03</span>
+        <span class="section-tag">Projects</span>
+      </div>
+      <div class="section-body">
+        <h2 id="projects-heading">Selected work</h2>
+        <p class="section-lede">Experience from my internship, presented as case-style summaries. Add public links or visuals when you have them.</p>
+
+        <ol class="project-stack">
+          <li class="project-entry">
+            <div class="project-entry-head">
+              <span class="project-num">Project 01</span>
+              <span class="project-context">Overnight Engine · Internal</span>
+            </div>
+            <h3 class="project-title">Software integrations</h3>
+            <p class="project-desc">
+              Built and live-tested more than 100 integrations for company software—focusing on how systems
+              connect, whether workflows behave as expected, and what breaks when real data and edge cases
+              show up. The work was hands-on implementation and verification, not abstract planning.
+            </p>
+            <p class="project-note">Selected experience — no public repository</p>
+            <!-- Optional: add when available
+            <a class="text-link" href="YOUR-LINK-HERE">View details ↗</a>
+            -->
+          </li>
+
+          <li class="project-entry">
+            <div class="project-entry-head">
+              <span class="project-num">Project 02</span>
+              <span class="project-context">Overnight Engine · Internal</span>
+            </div>
+            <h3 class="project-title">Employee health app</h3>
+            <p class="project-desc">
+              Designed and developed an iteration of a habit-based health app for employees—translating
+              a product idea into screens and flows centered on small, repeatable behaviors rather than
+              one-off features.
+            </p>
+            <p class="project-note">Selected experience — add demo or screenshots when allowed</p>
+            <!-- Optional: add when available
+            <a class="text-link" href="YOUR-LINK-HERE">View demo ↗</a>
+            -->
+          </li>
+
+          <li class="project-entry">
+            <div class="project-entry-head">
+              <span class="project-num">Project 03</span>
+              <span class="project-context">Overnight Engine · Research</span>
+            </div>
+            <h3 class="project-title">Business &amp; AI research</h3>
+            <p class="project-desc">
+              Investigated business strategy, the AI market, product design, and CRM systems—connecting
+              what products do with how companies buy, adopt, and organize around technology. Emphasis on
+              clear synthesis and questions that inform product and go-to-market thinking.
+            </p>
+            <p class="project-note">Selected experience — internal research</p>
+            <!-- Optional: add when available
+            <a class="text-link" href="YOUR-LINK-HERE">Read summary ↗</a>
+            -->
+          </li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <!-- PERSONAL INFO: Replace YOUR NAME -->
+    <span class="footer-name">© <span id="year"></span> Shreya Birudavolu</span>
+    <a class="back-to-top" href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
